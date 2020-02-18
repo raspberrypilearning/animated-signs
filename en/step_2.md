@@ -115,50 +115,11 @@ s = SenseHat()
 green = (0, 255, 0)
 nothing = (0, 0, 0)
 
-def one_arrow():
-    G = green
-    O = nothing
-    logo = [
-    O, O, O, O, O, O, O, O,
-    O, O, O, O, O, G, O, O,
-    O, O, O, O, O, O, G, G,
-    O, O, O, O, O, O, G, G,
-    O, O, O, O, O, O, O, O,
-    O, O, O, O, O, O, O, O,
-    O, O, O, O, O, O, O, O,
-    O, O, O, O, O, O, O, O,
-    ]
-    return logo
+def one_arrow():<>
 
-def two_arrows():
-    G = green
-    O = nothing
-    logo = [
-    O, O, O, O, O, O, O, O,
-    O, O, O, O, O, G, O, O,
-    O, O, O, O, O, O, G, G,
-    O, O, O, O, O, O, G, G,
-    O, O, O, O, O, O, O, O,
-    O, O, O, G, O, O, O, O,
-    O, O, G, G, G, G, G, O,
-    O, O, O, G, O, O, O, O,
-    ]
-    return logo
+def two_arrows():<>
 
-def three_arrows():
-    G = green
-    O = nothing
-    logo = [
-    O, O, O, O, O, O, O, O,
-    O, G, G, O, O, G, O, O,
-    O, G, G, O, O, O, G, G,
-    G, O, O, O, O, O, G, G,
-    O, O, O, O, O, O, O, O,
-    O, O, O, G, O, O, O, O,
-    O, O, G, G, G, G, G, O,
-    O, O, O, G, O, O, O, O,
-    ]
-    return logo
+def three_arrows():<>
 
 while True:
     s.set_pixels(one_arrow())
