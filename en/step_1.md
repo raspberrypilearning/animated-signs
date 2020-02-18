@@ -1,19 +1,21 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project, you will learn to display messages on the Raspberry Pi Sense HAT and use it's 8x8 LED grid to create pictures. Using these skills, you will create an animated "Reduce, Reuse, Recycle" sign to remind people to keep our planet clean!
 
 ### What you will make
 
 --- no-print ---
 Add instructions for using the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<div class="trinket">
+    <iframe src="https://trinket.io/embed/python/8b84f836d7?outputOnly=true&start=result" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+    </iframe>
 </div>
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/example-project.png)
 --- /print-only ---
 
 --- collapse ---
@@ -22,17 +24,15 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ Raspberry Pi with a Sense HAT (optional)
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ This project can be completed in a web browser using [trinket.io](https://trinket.io/)'s Sense HAT emulator.
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/project-name-go](http://rpf.io/animated-signs-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +41,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to display text on the Raspberry Pi Sense HAT
++ How to create and display images on the Raspberry Pi Sense HAT
++ How to use a loop to repeat instructions forever
 
 --- /collapse ---
 
@@ -51,8 +52,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/animated-signs/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+[Here is a link to the resources for this project](http://rpf.io/animated-signs-go).
 
 --- /collapse ---
