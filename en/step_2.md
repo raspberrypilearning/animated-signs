@@ -1,5 +1,7 @@
 ## Animated signs
 
+To get started, connect your Sense HAT to your Raspberry Pi and open `mu` from the programming menu on your Raspberry Pi. If you don't have a Sense HAT, you can use the emulator on [trinket.io](https://trinket.io/sense-hat). Just delete any code that is there already!
+
 --- task ---
 
 1\. To program our Raspberry Pi Sense HAT, we first need to `import` some code to use it's functions. We also can define some colours using RGB (red, green and blue) colour codes. I'm just going to use a code for green and one for nothing(when I want the LED to turn off). To find more colour codes, check out [this website](https://flaviocopes.com/rgb-color-codes/)
@@ -14,6 +16,8 @@ s = SenseHat()
 green = (0, 255, 0)
 nothing = (0, 0, 0)
 ```
+
++ Click run to test your code.
 
 --- /task ---
 
