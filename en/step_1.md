@@ -5,12 +5,12 @@ In this project, you will learn to display messages on the Raspberry Pi Sense HA
 ### What you will make
 
 --- no-print ---
-
+<html>
 <div class="trinket">
     <iframe src="https://trinket.io/embed/python/5d9b401d55?outputOnly=true&start=result" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
     </iframe>
 </div>
-
+</html>
 --- /no-print ---
 
 --- print-only ---
